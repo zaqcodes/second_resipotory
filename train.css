@@ -1,0 +1,29 @@
+.wrapper{
+    border:2px solid black;
+    margin: 0 10px;
+    display: grid;
+    grid-template-columns: repeat(autofix, 1fr);
+}
+nav{
+    margin: 0;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+.container {
+
+    display:flex;
+    justify-items: center;
+
+}
+/* .container > div{
+    flex:1;
+    background:coral;
+} */
+.box1{
+    flex:1;
+    background:coral;
+}
+.box2{
+    flex:1;
+    background:lightblue;
+}
